@@ -1,0 +1,114 @@
+/* Full-page container with flex centering */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  /* Inner content container to be centered */
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Listing container grid */
+  .ownlistings {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 200px;
+  }
+  
+  /* Individual listing item */
+  .listingdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .listingdiv img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .listingdiv h2 {
+    color: white;
+  }
+  
+  .unreadmessages {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 12px 50px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: darkgrey;
+  }
+  
+  /* Messages container */
+  .messagebox {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  /* Center categories and scale on hover */
+  .categoriescontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .categoriescontainer img {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+  }
+  
+  .categoriescontainer img:hover {
+    transform: scale(1.05);
+  }
+  
+.mesagesender{
+  width: 300px;
+}
+

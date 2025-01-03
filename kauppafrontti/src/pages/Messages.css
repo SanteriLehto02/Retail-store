@@ -1,0 +1,61 @@
+.ownlistingsmessages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .kuvajatitle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  .message-sender-label{
+    padding-right: 5px;
+  }
+  .kuva img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .tuotteennimi h2 {
+    margin-top: 10px;
+  }
+  
+  .otherSide {
+    flex: 2;
+    
+    padding: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  .messagebox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .mesagesender {
+    font-weight: bold;
+  }
+  
+  .messagestatus {
+    color: grey;
+  }
+  
+  .checkmark.light-grey {
+    color: lightgrey;
+    margin-left: 5px;
+  }
+  
+.lisitingbacground{
+  background-color: lightgrey;
+}
+.page-container{
+  padding-bottom: 80px;
+}

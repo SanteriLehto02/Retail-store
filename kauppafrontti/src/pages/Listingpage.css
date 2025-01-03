@@ -1,0 +1,66 @@
+.listingpagecontainer{
+    display: block;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.imagediv{
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+.imageamount{
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Optional for better visibility */
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.button-left, .button-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.button-left {
+    left: 0;
+}
+.button-right {
+    right: 0;
+}
+
+
+.imagediv img{
+    display: block;
+    height: 500px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: black; /* or any color you prefer */
+    margin: 20px 0; /* adjust margin as needed */
+}
+.popupnappit{
+    background-color: red;
+}
+.listingpagecontainer .messagebutton{
+    padding: 12px 50px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

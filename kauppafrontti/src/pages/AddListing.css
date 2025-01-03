@@ -1,0 +1,22 @@
+.addlistingcontainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.listingdata{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.listingitem {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.image-preview img {
+    height: 200px;
+    margin: 20px;
+}

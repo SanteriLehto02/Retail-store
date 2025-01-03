@@ -1,0 +1,81 @@
+.messagebox {
+    display: flex;
+    border-style: solid ;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+}
+
+.mesagesender{
+
+}
+
+.messagestatus{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.checkmark {
+    font-size: 24px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .light-grey {
+    color: lightgrey;
+  }
+  
+  .green {
+    color: green;
+  }
+
+  .chat-container {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+  }
+  
+  .messages-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .hismessagebox {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 65%;
+    background-color: grey;
+    color: black;
+    
+  }
+  
+  .messagebox:hover {
+    background-color: #f0f0f0; 
+  }
+
+  .youmessagebox{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 65%;
+    margin-left: 80px;
+    background-color: lightgreen;
+    color: black;
+  }
+
+  .youmessagebox:hover{
+    background-color: #f0f0f0; 
+  }

@@ -1,0 +1,50 @@
+p{
+    color: black;
+}
+.homecontainter{
+    width: 60%;
+}
+.homelistingcontainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 200px;
+
+}
+.listingdiv{
+    justify-content: center;
+    background-color: 	#C0C0C0;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.listingdiv img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.listingdiv h2{
+    color: white;
+}
+.categoriescontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.categoriescontainer img {
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+.categoriescontainer img:hover {
+    transform: scale(1.05); 
+}

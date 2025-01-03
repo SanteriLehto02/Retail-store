@@ -1,0 +1,22 @@
+Nav{
+    display: flex;
+    color: white;
+    background-color: gray;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+    list-style-type: none; 
+}
+
+nav ul{
+    margin-left: auto;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: aqua;
+}

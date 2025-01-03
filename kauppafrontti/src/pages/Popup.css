@@ -1,0 +1,65 @@
+.popupcontainer {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 50%;
+    height: 850px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 5px 15px rgba(0,0,0,.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .popupcontainer p {
+    color: white;
+    background-color: var(--dark-color);
+    width: 80%;
+    text-align: center;
+  }
+  .popupcontainer img {
+    margin-bottom: 10px;
+  }
+  
+  .popupcontainer button {
+    background-color: var(--light-color);
+    color: white;
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: larger;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-bottom: 30px;
+  }
+  
+  .popupcontainer h3 {
+    background-color: var(--dark-color);
+    padding: 5px;
+  }
+  
+  .popupcontainer label {
+    background-color: var(--dark-color);
+    padding: 8px;
+  }
+  
+  .popupcontainer select {
+    height: 30px;
+    width: 200px;
+    background-color: var(--light-color);
+    color: white;
+  }
+  
+  .popupcontainer select option {
+    background-color: var(--light-color);
+    color: white;
+  }
+
+.newmessage{
+  display: flex;
+}
+.newmessage button{
+  
+}

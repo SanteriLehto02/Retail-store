@@ -1,0 +1,7 @@
+.deleteAccountButton{
+    padding: 12px 50px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
